@@ -1,0 +1,22 @@
+# Local test outputs
+changelog.md
+entries.json
+summary.md
+summary.json
+chunks/
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+*~
