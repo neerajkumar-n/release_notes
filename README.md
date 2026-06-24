@@ -63,6 +63,7 @@ Go to **Actions → Weekly PR Summary to Sanity → Run workflow**. Leave the
 inputs blank to summarize the last 7 days, or set `start_date`/`end_date` to
 backfill a specific range. Expect a final log line like:
 
+
 ```
 Wrote weekly-pr-summary-YYYY-MM-DD — N sections, M items
 ```
