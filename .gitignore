@@ -1,17 +1,11 @@
-# Local test outputs
-changelog.md
-entries.json
-summary.md
-summary.json
-chunks/
+# Runtime artifacts (debug outputs written by scripts/*.ts)
+artifacts/*.json
+artifacts/*.md
+!artifacts/.gitkeep
 
 # Node
 node_modules/
-package-lock.json
-
-# Python
-__pycache__/
-*.pyc
+dist/
 
 # Environment variables
 .env
